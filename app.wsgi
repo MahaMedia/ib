@@ -1,6 +1,7 @@
 import sys
 import os
 
+# This is extremely important. Browser path is manually copied in venv folder
 os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "/var/www/mahamedia.us/intelligencebank_tools/venv/browser_binaries"
 
 venv_path = "/var/www/mahamedia.us/ib/venv"
