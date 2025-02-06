@@ -29,4 +29,4 @@ def show_test_script():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, host="http://195.250.25.177/")
+    app.run(debug=True)
